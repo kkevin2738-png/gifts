@@ -1,22 +1,25 @@
 {
-  "name": "v2.-경품추첨-프로그램---2025년-부산광역시-응급의료-유관기관-워크숍",
+  "name": "test",
+  "version": "0.1.0",
   "private": true,
-  "version": "0.0.0",
-  "type": "module",
   "scripts": {
-    "dev": "vite",
-    "build": "vite build",
-    "preview": "vite preview"
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "eslint"
   },
   "dependencies": {
-    "next": "^15.5.5",
-    "react": "^19.2.0",
-    "react-dom": "^19.2.0"
+    "@google/genai": "^1.45.0",
+    "next": "16.1.7",
+    "react": "19.2.3",
+    "react-dom": "19.2.3"
   },
   "devDependencies": {
-    "@types/node": "^22.14.0",
-    "@vitejs/plugin-react": "^5.0.0",
-    "typescript": "~5.8.2",
-    "vite": "^6.2.0"
+    "@types/node": "^20",
+    "@types/react": "^19",
+    "@types/react-dom": "^19",
+    "eslint": "^9",
+    "eslint-config-next": "16.1.7",
+    "typescript": "^5"
   }
 }
